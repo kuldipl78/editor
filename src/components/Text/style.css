@@ -1,0 +1,89 @@
+/* Main container styling */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1b1c22;
+  margin: 60px 30px;
+  padding: 10px;
+}
+
+/* Text container styling */
+.text-container {
+  width: 50%;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.img-dec {
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Editor container styling */
+.editor-container {
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0px;
+  border-radius: 10px;
+  border: 2px solid #cbd5e1;
+  box-shadow: 0 0 30px white;
+  background-color: #1b1c22;
+}
+
+/* Button styles */
+.icons {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 24px;
+  transition: color 0.3s ease;
+  color: #f1f5f9; /* Default inactive color */
+}
+
+.button-active {
+  color: #faff00; /* Active color */
+}
+
+.button-inactive {
+  color: #f1f5f9; /* Inactive color */
+}
+
+/* List items for button alignment */
+.list-items {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.list-item {
+  list-style: none;
+}
+
+/* Divider styling */
+.divider {
+  width: 100%;
+  color: white;
+  margin: 10px 0;
+}
+
+/* Text area styling */
+.input-field {
+  background-color: #25262c;
+  color: white;
+  border: none;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+}
