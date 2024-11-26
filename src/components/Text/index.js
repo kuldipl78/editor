@@ -45,6 +45,7 @@ class Text extends Component {
                   type="button"
                   onClick={this.onClickisBold}
                   data-testid="bold"
+                  aria-label="Toggle bold"
                   className={`icons ${
                     isBold ? 'button-active' : 'button-inactive'
                   }`}
@@ -52,12 +53,12 @@ class Text extends Component {
                   <i className="bi bi-type-bold" />
                 </button>
               </li>
-              {/* Italic button */}
               <li className="list-item">
                 <button
                   type="button"
                   onClick={this.onClickisItalic}
                   data-testid="italic"
+                  aria-label="Toggle italic"
                   className={`icons ${
                     isItalic ? 'button-active' : 'button-inactive'
                   }`}
@@ -65,12 +66,12 @@ class Text extends Component {
                   <i className="bi bi-type-italic" />
                 </button>
               </li>
-              {/* Underline button */}
               <li className="list-item">
                 <button
                   type="button"
                   onClick={this.onClickUnderline}
                   data-testid="underline"
+                  aria-label="Toggle underline"
                   className={`icons ${
                     isUnderline ? 'button-active' : 'button-inactive'
                   }`}
